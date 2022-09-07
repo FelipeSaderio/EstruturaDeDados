@@ -8,4 +8,18 @@ public class PraticaArray2 {
 	 * No final o programa deve printar na tela uma mensagem com a terceira variável do array
 	 */
 
+	
+	public static void main (String[]args) {
+		int [] numeros = new int [3];
+		numeros[0] = 3;
+		numeros[1] = 5;
+		numeros[2] = numeros[0] + numeros[1];
+		
+		System.out.println(" a soma da variavel é " + numeros[2]) ;
+		
+				
+		
+		
+	}
+	
 }
